@@ -1,6 +1,6 @@
 # Setting up an SFTP Server on Ubuntu
 ## Prerequisites
-Before starting, ensure you have:
+Before starting, ensure we have:
 A machine running Ubuntu (version 18.04 or later is recommended for the best compatibility)
 SSH installed on your Ubuntu machine. This is usually pre-installed on most Ubuntu distributions.
 Sudo privileges or root access to the Ubuntu machine
