@@ -29,12 +29,12 @@ by default, Apache2 can handle up to 160 requests per second
    You can change them to the following configuration to increase max requests per second. the Following configuration 
    supports up to 6000 concurrent users
    
-• Serverlimit – Maximum number of Apache processes
-• StartServers – Number of processes to start when you start running Apache
-• MinSpareThreads/MaxSpareThreads – Number of threads to keep idle without being killed
-• ThreadsPerChild – Number of threads per process
-• MaxRequestWorkers – Number of concurrent connections to be supported. This is the main directive that you need to change to increase max connections in Apache
-• MaxConnectionsPerChild – Number of connections to be handled by each child before it is killed
+ * Serverlimit – Maximum number of Apache processes
+ * StartServers – Number of processes to start when you start running Apache
+ * MinSpareThreads/MaxSpareThreads – Number of threads to keep idle without being killed
+ * ThreadsPerChild – Number of threads per process
+ * MaxRequestWorkers – Number of concurrent connections to be supported. This is the main directive that you need to change to increase max connections in Apache
+ * MaxConnectionsPerChild – Number of connections to be handled by each child before it is killed
 
 3. Restart Apache Server
    Restart apache web server to apply changes.
